@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  font-variation-settings: "slnt" 0;
+  color:white;
+  padding:4% 8%;
+}
+h2{
+    margin-left: 3%;
+    font-size: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    color:white;
+    
+}
+input{
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;  
+    padding:5px 
+}
+::placeholder{
+    color:white;
+    font-size:20px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(40%) sepia(100%) saturate(1000%) hue-rotate(180deg);
+}
+div{
+    margin: 30px;
+    justify-content: start;
+}
+.width{
+    width:100%
+}
+button{
+    width:15%;
+    padding:1%;
+    background-color: white;
+    font-size: 20px;
+}
+
+
+

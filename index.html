@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="" href="style.css" />
+
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <header><h2>Signup</h2></header>
+    <main>
+      <form>
+        <div>
+          <input class="width" id="name" type="name" placeholder="Full Name" required />
+        </div>
+        <div>
+          <input class="width" id="email" type="email" placeholder="Email" required />
+        </div>
+        <div>
+          <input class="width" id="psw" type="password" placeholder="Password" required />
+        </div>
+        <div>
+          <input class="width"
+            id="con-psw"
+            type="password"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <div>
+          <input class="width"
+            id="date"
+            type="text"
+            placeholder="MM/DD/YYYY"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            required
+          />
+        </div>
+        <div>
+          <input id="student" type="radio" name="job" required />
+          <label for="#student">Student</label>
+          <input id="employee" type="radio" name="job" required />
+          <label for="#employee">Employee</label>
+        </div>
+        <div>
+          <input id="checkbox" type="checkbox" name="" required />
+          <label for="#checkbox">I agree to all the Terms and conditions</label>
+        </div>
+        <div>
+          <button type="submit">Signup</button>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
